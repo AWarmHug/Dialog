@@ -16,6 +16,8 @@
 
     <style name="AppTheme.Dialog.Transparent" parent="android:Theme.Dialog">
 
+        <!--设置全屏，去除stateBar-->
+        <!--<item name="android:windowFullscreen">true</item>-->
         <!-- 背景透明 -->
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowContentOverlay">@null</item>
@@ -29,9 +31,6 @@
         <item name="android:windowNoTitle">true</item>
         <!-- 半透明 -->
         <item name="android:windowIsTranslucent">true</item>
-
-
-
 
     </style>
 
